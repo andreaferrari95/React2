@@ -3,7 +3,7 @@ import "./index.css";
 
 const mainContent = (
   <div>
-    <img src="./src/assets/react-logo.png" alt="" width="40px" />
+    <img src="./src/assets/react-logo.png" alt="React Logo" width="40px" />
     <h1>Fun Facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
