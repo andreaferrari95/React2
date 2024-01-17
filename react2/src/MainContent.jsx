@@ -1,7 +1,14 @@
+function Header() {
+  return (
+    <header>
+      <img src="./src/assets/react-logo.png" alt="React Logo" width="40px" />
+    </header>
+  );
+}
+
 function MainContent() {
   return (
     <div>
-      <img src="./src/assets/react-logo.png" alt="React Logo" width="40px" />
       <h1>Fun Facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -14,4 +21,22 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+function Footer() {
+  return (
+    <footer>
+      <small>© 2024 Andrea Ferrari development. All rights reserved.</small>
+    </footer>
+  );
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+export default Page;
