@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,10 +13,74 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #282D35;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.navbar {
+  background: #21222A;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 5rem;
+}
+
+.react-logo {
+  width: 30px;
+  margin-right: .5rem
+}
+
+.text-logo {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.06956rem;
+  margin-right: auto;
+}
+
+.nav-course {
+  color: #DEEBF8;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer {
+  padding: 20px;
+  font-weight: bold;
+  background: #21222A;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.container-main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.main-list {
+  line-height: 2.5;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
 }
