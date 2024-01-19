@@ -30,7 +30,7 @@ body {
   background: #21222A;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 3rem 2.5rem;
   height: 5rem;
 }
 
@@ -71,12 +71,17 @@ body {
 }
 
 .container-main {
-  padding: 2rem;
+  padding: 5.7rem 2.7rem;
+  background-image: url('./assets/react-icon-large.png');
+  background-size: 15rem;
+  background-position: right 75%;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  letter-spacing: -0.05em;
 }
 
 .main-list {
@@ -85,4 +90,10 @@ h1 {
   padding-top: 1.5rem;
   font-weight: 400;
   font-size: 1.1rem;
+  max-width: 400px;
+}
+
+.main-list>li::marker {
+  font-size: 1.5rem;
+  color: #61DAFB;
 }
